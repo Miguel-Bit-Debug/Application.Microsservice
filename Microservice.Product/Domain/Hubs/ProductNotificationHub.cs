@@ -14,7 +14,7 @@ namespace Domain.Hubs
             _mapper = mapper;
         }
 
-        public async Task<string> NotificationNewProduct(string productName, ProductRequest request)
+        public async Task<string> NotificationNewProduct(ProductRequest request)
         {
             var product = _mapper.Map<Product>(request);
 
