@@ -1,4 +1,5 @@
 using CrossCutting.DI;
+using Domain.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapHub<ProductNotificationHub>("/hub");
 
 app.UseAuthorization();
 
