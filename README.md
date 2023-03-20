@@ -7,5 +7,5 @@ Technologies used:
   SignalR
 
 # Product API
-  CRUD - products
-  Notification Product - using hub notification 
+  - CRUD - products
+  - Notification Product - using hub notification 
