@@ -1,5 +1,5 @@
 # Application.Microsservice
-Backend Repository
+Backend service
 
 Technologies used:
   .NET 6 (C#)
