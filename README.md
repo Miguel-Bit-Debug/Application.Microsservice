@@ -2,9 +2,9 @@
 Backend service
 
 Technologies used:
-  .NET 6 (C#)
-  SQLSERVER
-  SignalR
+  - .NET 6 (C#)
+  - SQLSERVER
+  - SignalR
 
 # Product API
   - CRUD - products
